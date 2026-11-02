@@ -27,10 +27,10 @@ We plan to include leaderboards, multiplayer challenges, sound effects, and card
 [Evaluation of your app across the following attributes]
 - **Category:** Education, Games, Entertainment
 - **Mobile:** IOS Application only
-- **Story:**  [What story does your app tell?]
-- **Market:** [Target audience for the app]
-- **Habit:** [Is it a daily use app or occasional use?]
-- **Scope:** [Is it a broad or narrow app in terms of features?]
+- **Story:**  SumFlip turns basic math practice into an entertaining game. Instead of solving traditional math questions, players use memory and problem-solving skills to find number combinations while competing against time. The goal is to make learning and practicing math enjoyable.
+- **Market:** The app is designed for everyone.
+- **Habit:** SumFlip is designed for both daily and occasional use.
+- **Scope:** The core app will focus on card-flipping gameplay, mathematical operations, difficulty levels, a countdown timer, and score tracking.
 
 ## Product Spec
 
