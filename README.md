@@ -98,9 +98,33 @@ We plan to include leaderboards, multiplayer challenges, sound effects, and card
 
 ### Networking
 
-- [List of network requests by screen]
-- [Example: `[GET] /users` - to retrieve user data]
-- ...
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+The core SumFlip game can run locally without requiring an external API. Game logic, card generation, scoring, and the countdown timer will be handled directly within the application.
+
+If we implement an online leaderboard or multiplayer functionality, we may use a backend service such as Firebase to store and retrieve player information.
+
+### Potential Network Requests
+
+#### Leaderboard Screen
+
+Retrieve top player scores from the database.
+
+Retrieve a player's ranking and personal best score.
+
+### Game Results Screen
+
+Save a completed game's score to the database.
+
+Update the player's high score if a new record is achieved.
+
+### Possible Firebase Operations (Optional)
+
+Read documents from a leaderboard collection to display high scores.
+
+Create a document in the scores collection when a game finishes.
+
+Update a player's high-score document.
+
+Create and update documents in a matches collection for multiplayer games.
+
+
+These are proposed database operations rather than finalized API endpoints. The exact networking implementation will be determined during development.
