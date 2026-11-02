@@ -88,12 +88,13 @@ We plan to include leaderboards, multiplayer challenges, sound effects, and card
 
 ### Models
 
-[Model Name, e.g., User]
+The following models represent the data we plan to use for SumFlip. The final structure may change during development.
+
 | Property | Type   | Description                                  |
 |----------|--------|----------------------------------------------|
-| username | String | unique id for the user post (default field)   |
-| password | String | user's password for login authentication      |
-| ...      | ...    | ...                          
+| username | String | Player's display name|
+| score    | Int    | Player's score       |
+
 
 
 ### Networking
