@@ -1,7 +1,7 @@
 Original App Design Project - README Template
 ===
 
-# APP_NAME_HERE
+# SumFlip
 
 ## Table of Contents
 
@@ -14,13 +14,19 @@ Original App Design Project - README Template
 
 ### Description
 
-[Provide a brief description of your app, its purpose, and functionality.]
+SumFlip is an interactive math card game designed to make practicing math fun, challenging, and competitive. The game displays a target number, and players must flip two hidden number cards to find a combination that produces the target using addition, subtraction, multiplication, or division.
+
+For example, if the target number is 5 and the selected operation is addition, players must find two cards containing numbers that add up to 5, such as 2 and 3.
+
+Players earn points for correct matches and try to achieve the highest score before the timer runs out. The app will also include different difficulty levels to make the game accessible to beginners and more experienced players.
+
+We plan to include leaderboards, multiplayer challenges, sound effects, and card-flipping animations to make the experience more engaging.
 
 ### App Evaluation
 
 [Evaluation of your app across the following attributes]
-- **Category:** [e.g., Social, Entertainment, Education]
-- **Mobile:** [Is it a mobile application only?]
+- **Category:** Education, Games, Entertainment
+- **Mobile:** IOS Application only
 - **Story:**  [What story does your app tell?]
 - **Market:** [Target audience for the app]
 - **Habit:** [Is it a daily use app or occasional use?]
