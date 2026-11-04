@@ -38,42 +38,52 @@ We plan to include leaderboards, multiplayer challenges, sound effects, and card
 
 **Required Must-have Stories**
 
-* [User can [specific action, e.g., register an account]]
-* ...
+* User can start a new game from the home screen
+* User can select a mathematical operation (addition, subtraction, multiplication, or division)
+* User can choose a difficulty level (Easy, Medium, or Hard)
+* User can see a randomly generated target number
+* User can tap cards to flip them and reveal hidden numbers
+* User can select two cards to try to produce the target number
 
 **Optional Nice-to-have Stories**
 
-* [User can [specific action, e.g., persist user information across working sessions]]
-* ...
+* User can view a leaderboard displaying the highest scores
+* User can pause and resume a game
+* User can compete against another player in multiplayer mode
 
 ### 2. Screen Archetypes
 
-- [ ] [**Screen Name, e.g., Login Screen**]
-* [Required User Feature: User can log in.]
-- [ ] [**Another Screen Name**]
-* [Associated required user story]
-...
-...
-...
+- [ ] **Home Screen**
+* User can tap the Play button to start setting up a game
+* User can see the SumFlip app name and game logo
+- [ ] **Game Setup Screen**
+* User can select a mathematical operation
+* User can choose between Easy, Medium, and Hard difficulty
+- [ ] **Game Screen**
+* User can see the target number displayed at the top
+* User can tap hidden cards to reveal their numbers
+* User can select two cards to find a correct mathematical combination
+- [ ] **Game Results Screen**
+* User can view their final score
+* User can choose to play again
 
 ### 3. Navigation
 
-**Tab Navigation** (Tab to Screen)
+SumFlip will primarily use flow-based navigation because players move through a game from setup to gameplay and results.
 
-
-- [ ] [First Tab, e.g., Home Feed]
-- [ ] [Second Tab, e.g., Profile]
-...
-...
-...
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] [**Screen Name**]
-  * Leads to [**Next Screen**]
-- [ ] [**Another Screen Name**]
-  * Leads to [**Another Screen**] 
-
+- [ ] **Home Screen**
+  * Leads to **Game Setup Screen** when user press play
+- [ ] **Game Setup Screen**
+  * Leads to **Game Screen** when the user selects an operation and difficulty level and taps Start Game
+  * Leads back to **Home Screen** when the user selects Back
+- [ ] **Game Screen**
+  * Leads to **Game Results** Screen when the timer reaches zero
+- [ ] **Game Results Screen**
+  * Leads to **Game Screen** when the user selects Play Again, using the previously selected settings
+  * Leads to **Home Screen** when the user selects Home.
 
 ## Wireframes
 
