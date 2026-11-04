@@ -77,9 +77,13 @@ We plan to include leaderboards, multiplayer challenges, sound effects, and card
 
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section]
+[Handwritten.pdf](https://github.com/user-attachments/files/34383141/Handwritten.pdf)
+
 
 ### [BONUS] Digital Wireframes & Mockups
+
+<img width="1536" height="426" alt="sumflip-digital" src="https://github.com/user-attachments/assets/3762999f-a365-4663-8490-0274192016da" />
+
 
 ### [BONUS] Interactive Prototype
 
