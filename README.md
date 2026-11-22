@@ -12,6 +12,10 @@ Original App Design Project - README Template
 
 ## Overview
 
+[Go to Units 8](#Unit8)
+[Go to Units 9](#Unit9)
+[Go to Units 10](#Unit10)
+
 ### Description
 
 SumFlip is an interactive math card game designed to make practicing math fun, challenging, and competitive. The game displays a target number, and players must flip two hidden number cards to find a combination that produces the target using addition, subtraction, multiplication, or division.
@@ -143,3 +147,54 @@ Create and update documents in a matches collection for multiplayer games.
 
 
 These are proposed database operations rather than finalized API endpoints. The exact networking implementation will be determined during development.
+
+
+
+
+## Unit8
+
+### Unit 8: Group Milestone 2 — Sprint 1 Progress Sprint 1 Goal
+
+Our goal for Sprint 1 was to create the foundation of SumFlip using SwiftUI. We focused on building the main screens, setting up navigation, and creating basic card interactions before implementing the full game logic.
+
+### Features Implemented
+
+During Sprint 1, we completed the following:
+
+- Created the initial SumFlip iOS project using SwiftUI.
+- Developed the Home Screen with a Play button.
+- Created the Game Setup Screen with four mathematical operations: addition, subtraction, multiplication, and division.
+- Added three difficulty options: Easy, Medium, and Hard.
+- Built the Game Screen with a target number, score display, timer display, and number card grid.
+- Implemented basic card-flipping interactions that reveal numbers when tapped.
+- Created a Game Results Screen that displays a placeholder score.
+- Added navigation between the main screens.
+
+### Next Steps — Sprint 2
+
+For our next sprint, we plan to:
+
+- Generate random target numbers based on the selected operation.
+- Implement logic to check whether two selected cards produce the correct target.
+- Add feedback for correct and incorrect matches.
+- Implement a working countdown timer.
+- Create a scoring system that awards points for correct matches.
+- Connect the final score to the Game Results Screen.
+- Improve difficulty levels and overall gameplay.
+
+### Sprint 1 Demo
+
+The following video demonstrates our progress during Sprint 1, including navigation between screens, selecting game settings, and flipping cards.
+
+(**Demo Video:**)[https://youtube.com/shorts/PE9hHMcp3Ds?feature=share]
+
+### GitHub Project Board
+
+Our team uses a GitHub Project Board to organize tasks, assign responsibilities, and track development progress.
+
+**Project Board:** [https://github.com/orgs/Codepath-G12Project/projects/1]
+
+
+
+## Unit9
+## Unit10
