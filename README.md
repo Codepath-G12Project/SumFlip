@@ -12,9 +12,9 @@ Original App Design Project - README Template
 
 ## Overview
 
-[Go to Units 8](#Unit8)
-[Go to Units 9](#Unit9)
-[Go to Units 10](#Unit10)
+1. [Go to Units 8](#Unit8)
+2. [Go to Units 9](#Unit9)
+3. [Go to Units 10](#Unit10)
 
 ### Description
 
