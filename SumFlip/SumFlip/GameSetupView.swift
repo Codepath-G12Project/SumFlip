@@ -5,6 +5,7 @@
 //  Created by Carlvensky St Fleur on 11/22/26.
 //
 
+
 import SwiftUI
 
 struct GameSetupView: View {
@@ -25,7 +26,7 @@ struct GameSetupView: View {
     ]
 
     var body: some View {
-        VStack(spacing: 24) {
+        VStack(spacing: 25) {
             Text("Game Setup")
                 .font(.largeTitle)
                 .bold()
@@ -39,8 +40,10 @@ struct GameSetupView: View {
                         Text(item)
                     }
                 }
-                .pickerStyle(.segmented)
+                .pickerStyle(.menu)
+                .tint(.purple)
             }
+            .frame(maxWidth: .infinity, alignment: .leading)
 
             VStack(alignment: .leading, spacing: 12) {
                 Text("Difficulty")
@@ -54,11 +57,20 @@ struct GameSetupView: View {
                 .pickerStyle(.segmented)
             }
 
-            NavigationLink("Start Game") {
+            Text("Find matching cards and earn as many points as possible in 60 seconds.")
+                .foregroundStyle(.secondary)
+                .multilineTextAlignment(.center)
+
+            NavigationLink {
                 GameView(
                     operation: operation,
                     difficulty: difficulty
                 )
+            } label: {
+                Text("Start Game")
+                    .font(.headline)
+                    .frame(maxWidth: .infinity)
+                    .padding()
             }
             .buttonStyle(.borderedProminent)
             .tint(.purple)
